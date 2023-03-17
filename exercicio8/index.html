@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Exercicio 8</title>
+</head>
+<style>
+  .exercicio {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  div {
+    margin: 1rem;
+  }
+</style>
+
+<body>
+  <h1>Atividade de Fixação 2 - Exercicio 8</h1>
+  <hr>
+  <div class="exercicio">
+    <h3>8 - Faça um programa para o cálculo de uma folha
+      de pagamento, sabendo que os descontos são do Imposto
+      de Renda, que depende do salário bruto (conforme tabela
+      abaixo) e 3% para o Sindicato e que o FGTS corresponde a
+      11% do Salário Bruto, mas não é descontado (é a empresa
+      que deposita). O Salário Líquido corresponde ao Salário
+      Bruto menos os descontos. O programa deverá pedir ao
+      usuário o valor da sua hora e a quantidade de horas
+      trabalhadas no mês. Desconto do IR: </h3>
+
+    <table border="1">
+      <tr>
+        <th>Salário Bruto até 900 (inclusive) :</th>
+        <td>isento</td>
+      </tr>
+      <tr>
+        <th>Salário Bruto até 1500 (inclusive):</th>
+        <td>desconto de 5%</td>
+      </tr>
+      <tr>
+        <th>Salário Bruto até 2500 (inclusive):</th>
+        <td>desconto de 10%</td>
+      </tr>
+      <tr>
+        <th>Salário Bruto acima de 2500 :</th>
+        <td>desconto de 20% Imprima na tela as informações, dispostas conforme o exemplo
+          abaixo. No exemplo o valor da hora é 5 e a quantidade
+          de hora é 220.</td>
+      </tr>
+    </table>
+  </div>
+
+  <div>
+    <label for="valor_da_hora">Insira a quantidade de horas trabalhadas no mês: </label>
+    <input type="number" name="valor_da_hora">
+
+    <label for="horas_trabalhadas">Insira a quantidade de horas trabalhadas no mês: </label>
+    <input type="number" name="horas_trabalhadas">
+
+
+    <p>
+      <label for="resultadoIr">Desconto do IR:</label>
+    <h5 id="resultadoIr"></h5>
+    </p>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>

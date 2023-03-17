@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Exercicio 5</title>
+</head>
+
+<body>
+  <h1>Atividade de Fixação 2 - Exercicio 5</h1>
+  <hr>
+  <div>
+    <h3>Implemente, utilizando funções, um programa que receba do
+      usuário o valor do salário bruto de um funcionário e imprima
+      o valor com descontos de INSS, FGTS e Plano de Saúde. O programa
+      deve utilizar uma função para calcular cada um dos descontos, sendo
+      que estas funções devem receber o valor do salário bruto e retornar
+      o valor a ser descontado. Os valores descontados devem ser:</h3>
+    <ul>
+      <li>INSS: 10% do valor bruto;</li>
+      <li>FGTS: 8%;</li>
+      <li>Plano de Saúde: R$100,00.</li>
+    </ul>
+  </div>
+
+  <div>
+    <label for="salario_base">Insira a quantidade de horas trabalhadas no mês: </label>
+    <input type="number" name="salario_base">
+
+    <p>
+      <label for="resultadoInss">Desconto INSS:</label>
+    <h5 id="resultadoInss"></h5>
+    </p>
+    <p>
+      <label for="resultadoFgts">Desconto FGTS:</label>
+    <h5 id="resultadoFgts"></h5>
+    </p>
+    <p>
+      <label for="plano_saude">Plano de Saúde:</label>
+    <h5 id="plano_saude"></h5>
+    </p>
+
+    <p>
+      <label for="desconto_total">Desconto Total:</label>
+    <h5 id="desconto_total"></h5>
+    </p>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>

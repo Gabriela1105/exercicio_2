@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Exercicio 4</title>
+</head>
+<style>
+  .alunos-provas {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  input {
+    width: 20%;
+  }
+
+  label {
+    margin-top: 1rem;
+  }
+</style>
+
+<body>
+  <h1>Atividade de Fixação 2 - Exercicio 4</h1>
+  <hr>
+  <div>
+    <h3>3 - Altere o programa do exercício 2 para que ele utilize
+      a função calcula_produto do exercício 1 no cálculo da média
+      ponderada;</h3>
+
+    <div class="alunos-provas">
+      <label for="aluno1_prova1">Aluno 1 / Prova 1: </label>
+      <input type="number" name="aluno1_prova1">
+
+      <label for="aluno1_prova2">Aluno 1 / Prova 2: </label>
+      <input type="number" name="aluno1_prova2">
+
+      <label for="aluno2_prova1">Aluno 2 / Prova 1: </label>
+      <input type="number" name="aluno2_prova1">
+
+      <label for="aluno2_prova2">Aluno 2 / Prova 2: </label>
+      <input type="number" name="aluno2_prova2">
+
+      <label for="peso_prova1">Peso Prova 1: </label>
+      <input type="number" name="peso_prova1">
+
+      <label for="peso_prova2">Peso Prova 2: </label>
+      <input type="number" name="peso_prova2">
+
+      <p>
+        <label for="resultadoMediaAluno1">Média: </label>
+      <h5 id="resultadoMediaAluno1"></h5>
+      <label for="resultadoMediaAluno2">Média: </label>
+      <h5 id="resultadoMediaAluno2"></h5>
+      </p>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
